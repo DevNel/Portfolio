@@ -1,0 +1,101 @@
+
+/* colors pallete */
+
+body    {
+    
+    background-color: black;
+    color: #29648A;
+
+}
+
+body h1 {
+    
+    color: #EEEEEE;
+}
+
+body h2 {
+    
+    color: #EEEEEE;
+}
+
+header {
+    
+    background-color: #25274d;
+}
+
+nav {
+    
+    background-color: #25274d;
+}
+
+main    {
+    
+    background-color: #25274d;
+}
+
+footer  {
+    
+    background-color: #25274d;
+}
+
+/* formatting */
+
+/* general formatting */
+
+h1  {
+    
+    text-align: center;
+}
+/* header formatting */
+header {
+    /*div*/
+    border-radius: .5em;
+    box-shadow: 0em .5em .5em #15274d;
+
+}
+
+
+
+/* nav formatting */
+
+nav {
+    /*div*/
+    border-radius: .5em;
+    box-shadow: 0em .5em .5em #15274d;
+    text-align: center;
+}
+    
+nav ul  {
+    
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+nav li  {
+    
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.3em;
+}
+
+/* main formatting */
+
+main     {
+    /*div*/
+    border-radius: .5em;
+    box-shadow: 0em .5em .5em #15274d;
+}
+
+/* footer formatting */
+
+footer  {
+    
+    /*div*/
+    border-radius: .5em;
+    box-shadow: 0em .5em .5em #15274d;
+    
+    /*font*/
+    text-align: center;
+    font-size: .5em;
+}
