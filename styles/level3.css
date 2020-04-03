@@ -1,0 +1,301 @@
+
+/* colors pallete */
+
+body    {
+    
+    background-color: #606884;
+    color: #EEE1C4;
+
+}
+
+body h1 {
+    
+    color: #EEE8C4;
+}
+
+body h2 {
+    
+    color: #EEE8C4;
+}
+
+body a  {
+    color: #C3B086;
+    text-decoration: none;
+}
+
+body a:visited  {
+    
+    color: #EEE8C4;
+}
+
+body a:hover    {
+    
+    color: #EEE1C4;
+    
+}
+
+header {
+    
+    background-color: #372A57;
+}
+
+nav {
+    
+    background-color: #372A57;
+}
+
+main    {
+    
+    background-color: #372A57;
+}
+
+footer  {
+    
+    background-color: #372A57;
+}
+
+/*fonts*/
+
+
+
+ h1, h2, nav {
+	
+ font-family: 'Swanky and Moo Moo';
+ font-size: 20px;
+ 
+}
+
+body h1	{
+	
+	font-size: 2.5em;
+	
+}
+
+body h2	{
+	
+	font-size: 1.75em;
+	font-weight: normal;
+}
+
+/* formatting */
+
+/* general formatting */
+
+/*image formatting */
+img {
+    
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+body footer	{
+	
+	font-size: .75em;
+}
+
+
+/* wrapper formatting */
+
+.wrapper    {
+    
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+/* formatting for responsive 3 column layout */
+.column {
+    float: left;
+       
+    }
+
+.left, .right   {
+    
+    width: 20%;
+    
+}
+
+.middle {
+    
+    width: 60%;
+}
+
+.row:after    {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px)    {
+    .column {
+        width: 100%;
+        margin-left: auto;
+        
+    }
+    
+}
+
+/* end 3 column layout */
+
+
+
+h1  {
+    
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h2  {
+    
+    text-align: center;
+    font-size: 1.25em;
+}
+/* header formatting */
+header {
+    /*div*/
+    border-radius: .5em;
+    margin: 3%;
+
+}
+
+/*link box formatting */
+.linkbox {
+	
+	font-weight: bold;
+	 padding-top: 2em;
+	 padding-bottom: 1.5em;
+	 text-align: center;
+
+	}
+
+
+/* nav formatting */
+
+nav {
+    /*div*/
+    border-radius: .5em;
+    text-align: center;
+    margin: 3%;
+}
+    
+nav ul  {
+    
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+nav li  {
+    
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.3em;
+}
+
+/* main formatting */
+
+main     {
+    /*div*/
+    border-radius: .5em;
+    overflow: hidden;
+    margin: 3%;
+    padding: 1em;
+}
+
+
+/* footer formatting */
+
+footer  {
+    
+    /*div*/
+    border-radius: .5em;
+    margin: 3%;
+    
+    /*font*/
+    text-align: center;
+    font-size: .5em;
+    
+}
+
+/*formatting rules for mobile*/
+
+@media only screen and (max-width: 459px) {
+
+.mobile {
+    
+    display: inline-block;
+}
+
+.desktop    {
+    
+    display: none;
+}
+
+nav	{
+	
+	background-color: #606884;
+	margin: 0;
+}
+
+nav li		{
+	
+	font-size: 1.25em;
+	font-weight: bold;
+	background-color: #372A57;
+	border-radius: .5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 3%;
+}
+
+}
+
+/* formatting for tablets and desktop*/
+
+@media only screen and (min-width: 460px)   {
+    
+    /* set menu to display inline and format menu links */
+    
+   
+    nav li  {
+        
+        display: inline;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding: 10px;
+        height: 1.5em;
+        background-color: #434D6D;
+        border-radius: .5em
+        
+    }
+    
+    nav a   {
+        
+        color: #EEE8C4;
+        text-decoration: none;
+                
+    }
+    
+    nav li:hover, a:hover {
+        
+        color: #C3B086;
+        background-color: #372A57;
+        
+    }
+    
+    /* end menu formatting */
+    
+    /* hide mobile class */
+    .mobile {
+        display: none;
+    }
+    
+    /*display desktop class */
+    .desktop    {
+        display: inline;
+        
+    }
+}

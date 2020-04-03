@@ -1,0 +1,46 @@
+/* table formatting */
+
+
+	#imgTable   {
+    
+    width: 80%;
+    margin: 0 auto;
+    border: 0px;
+    border-spacing: 0px;
+	}
+
+	#imgTable th  {
+    
+    background-color: #00897D;
+    border-collapse: collapse;
+	font-family: 'Swanky and Moo Moo';
+	font-size: 1.75em;
+	font-weight: normal;
+	    color: #DDDDDD;
+
+	}
+
+	#imgTable th:first-child  {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+	}
+
+	#imgTable th:nth-child(2) {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+	}
+
+	#imgTable th, #imgTable td  {
+    
+    padding: 10px;
+    text-align: center;
+	}
+
+	#imgTable td    {
+    border: 0px;
+    border-bottom: 2px solid #00897D;
+    border-collapse: collapse;
+	}
+
+
+/* end table formatting */
